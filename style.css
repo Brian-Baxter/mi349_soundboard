@@ -5,8 +5,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+.center{
+    background-color: #f3f3f3;
+    border-radius: 15px;
     margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    box-shadow: rgba(0,0,0,0.1)0 10px 10px;
+    border:1px solid #aaa;
 }
 
 #Blip{
