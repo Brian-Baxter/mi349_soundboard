@@ -5,18 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel = "stylesheet" href="style.css">
         <title>Soundboard</title>
-        <script type="text/javascript" src="soundboard.js"></script>
+       <!-- <script type="text/javascript" src="soundboard.js"></script>-->
     </head>
     <body>
         <nav id="nav">
             <audio id="Blip" src="blip.wav"></audio>
             <button onclick="document.getElementById('Blip').play()">Blip</button>
-            <button id="Bloop">
-                Bloop
-            </button>
-            <button id="Click">
-                Click
-            </button>
+            <audio id="Bloop" src="bloop_x.wav"></audio>
+            <button onclick="document.getElementById('Bloop').play()">Bloop</button>
+            <audio id="Click" src="click_x.wav"></audio>
+            <button onclick="document.getElementById('Click').play()">Click</button>
         </nav>
     </body>
 </html>
