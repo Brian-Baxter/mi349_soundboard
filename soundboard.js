@@ -1,6 +1,8 @@
 
-let blip = new Audio("blip.wav");
-var bloop = new Audio("bloop_x.wav");
+let blip = new Audio();
+blip.src = "blip.wav";
+var bloop = new Audio();
+bloop.src = "bloop_x.wav";
 var click = new Audio("click_x.wav");
 
 var blipButton = document.getElementById("Blip");
