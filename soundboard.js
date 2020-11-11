@@ -21,5 +21,6 @@ clickButton.addEventListener("click",function(){
 })
 
 function playBlip(){
-    document.getElementById('Blip').play();
+    var blip = new Audio("blip.wav");
+    audio.play();
 }
