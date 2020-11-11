@@ -14,7 +14,7 @@ function playBlip(){
 
 function playBloop(){
     var bloop = new Audio("bloop_x.wav");
-    audio.play();
+    audio.play(bloop);
 }
 
 function playClick(){
