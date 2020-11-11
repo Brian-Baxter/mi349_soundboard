@@ -5,6 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    margin: 0 auto;
+}
+
 #Blip{
     background-color: #4CAF50;
 }
