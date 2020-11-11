@@ -19,3 +19,7 @@ var clickButton = document.getElementById("Click");
 clickButton.addEventListener("click",function(){
     audio.play(click);
 })
+
+function playBlip(){
+    document.getElementById('Blip').play();
+}
