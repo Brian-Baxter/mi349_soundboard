@@ -1,14 +1,18 @@
 #nav{
     margin-top: 30px;
-    background: #eb0000;
+    background: #969696;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#bloop{
+#Blip{
+    background-color: #4CAF50;
+}
+
+#Bloop{
     background-color:#5250b6;
 }
 
-#click{
+#Click{
     background-color:#50b694;
 }
